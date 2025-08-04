@@ -1,0 +1,10 @@
+The Python Multi-threaded Chat Server is a command-line application designed to demonstrate core computer science principles.
+It was built using Python's built-in `socket` and `threading` libraries.
+The server component, `server.py`, uses a multi-threaded architecture. This means it can handle multiple client connections at the same time without blocking. When a new client connects, the server spawns a dedicated thread to manage all communication with that specific client.
+The client component, `client.py`, is also multi-threaded. One thread is responsible for listening for incoming messages from the server, while another thread handles user input for sending messages. This ensures the user experience is smooth and non-blocking.
+The main purpose of the chat server project is to showcase a practical understanding of networking, concurrency, and protocol design. It is a foundational project for understanding how real-time applications like WhatsApp or Slack work at a fundamental level.
+
+The Sentiment Analysis API is another key project. It is a containerized web service for predicting sentiment.
+This project uses FastAPI for the API, Scikit-learn for the machine learning model, and Docker for containerization.
+The goal of this project is to demonstrate the end-to-end lifecycle of a machine learning model, from training to deployment as a scalable, production-ready service. This is a critical skill in the field of MLOps.
+To use the API, a client sends a POST request with text data to the `/predict` endpoint, and the API returns a JSON response with the predicted sentiment, either 'positive' or 'negative', along with a confidence score.
