@@ -76,3 +76,11 @@ This might take a moment as it downloads the embedding model for the first time.
 ### 3. Run the Chatbot
 
 Now you can start the chatbot and ask it questions about the content in `knowledge_base.txt`.
+```bash
+python chatbot.py
+```
+
+**Example Questions:**
+* "How does the chat server handle multiple clients?"
+* "What is the purpose of the Sentiment Analysis API project?"
+* "What technologies are used in the sentiment analysis project?"
